@@ -1,0 +1,53 @@
+.order {
+    margin-bottom: 20px;
+    background: #f5f5f5;
+    overflow: hidden;
+    position: relative;
+    transition: 500ms ease;
+}
+  
+.order img {
+ width: 70px;
+ height: 70px;
+ float:left;
+ margin-right: 20px;
+ border-radius: 10px;
+ transform: scale(0.9);    
+ transition: 500ms ease;
+position: sticky;
+}
+
+.order img:hover {
+    transform: scale(1.05);
+    transition: 500ms ease;
+}
+
+.textholder {
+    display: flex;
+    flex-direction: column;
+}
+
+.textholder h2 {
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.textholder b {
+    color: #797979;
+    font-weight: 700;
+}
+
+.trashIcon {
+    color: #ca5252;
+    float: right;
+    position: relative;
+    top: -25px;
+    cursor: pointer;
+    transition: 500ms ease;
+}
+
+.trashIcon:hover {
+    transform: scale(1.25);
+    transition: 500ms ease;
+    left: -5px;
+}

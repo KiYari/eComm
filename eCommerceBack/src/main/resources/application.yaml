@@ -1,0 +1,9 @@
+spring:
+  jpa:
+    show-sql: true
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://26.175.81.229:5432/eCommerce
+    username: postgres
+    password: root

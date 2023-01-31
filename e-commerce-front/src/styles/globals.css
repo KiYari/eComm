@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+}
+
+header {
+  position: relative;
+}
+
+footer {
+  text-align: center;
+  margin-top: 100px;
+}
+
+main {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+main h2, main p, main b {
+  margin: 10px 20px;
+  color: #333;
+}
+
+main b {
+  color: rgb(0, 151, 28)
+}
